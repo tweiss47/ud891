@@ -15,22 +15,23 @@
         <input type="text" id="name" name="name">
       </div>
 
-      <h3>Drink Options</h3>
-
-      <ul id="group1" class="radiogroup">
-        <li class="radio">
+      <label for="group1">
+        <h3 id="group1-label">Drink Options</h3>
+      </label>
+      <ul id="group1" class="radiogroup" role="radiogroup" aria-labelledby="group1-label">
+        <li class="radio" role="radio">
           Water
         </li>
-        <li class="radio">
+        <li class="radio" role="radio">
           Tea
         </li>
-        <li class="radio">
+        <li class="radio" role="radio">
           Coffee
         </li>
-        <li class="radio">
+        <li class="radio" role="radio">
           Cola
         </li>
-        <li class="radio">
+        <li class="radio" role="radio">
           Ginger Ale
         </li>
       </ul>
